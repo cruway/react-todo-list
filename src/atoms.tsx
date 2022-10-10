@@ -21,7 +21,7 @@ export const categoryState = atom<Categories>({
 
 // local stroge 追加
 const { persistAtom } = recoilPersist({
-   key: 'toDoLocal',
+   key: 'toDoLocalTest',
    storage: localStorage,
 });
 
